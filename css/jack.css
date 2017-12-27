@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 1em;
+    text-decoration: none;
+    border: 0;
+    color: white;
+}
+
+body {
+    background-color: #00091a;
+    background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+h1 {font-size: 2em;}
+
+h2 {font-size: 1.6em;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+nav h1,
+nav h4,
+nav,
+nav a {
+    font-family: 'Gruppo', cursive;
+    text-align: center;
+}
+
+nav a{
+    display:block;
+}
+nav,
+footer {
+    min-height: 5em;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    width: 100%;
+    align-items: stretch;
+    background: #606c88;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3f4c6b, #606c88);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3f4c6b, #606c88);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.shadow {
+    -webkit-box-shadow: -5px 5px 13px 0px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: -5px 5px 13px 0px rgba(0, 0, 0, 0.67);
+    box-shadow: -5px 5px 13px 0px rgba(0, 0, 0, 0.67);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+#CV {
+    width: 595px;
+    height: 842px;
+    margin: auto;
+}
+
+#container {
+    width: 85%;
+    margin: auto;
+}
