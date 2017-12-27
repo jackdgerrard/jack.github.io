@@ -62,3 +62,20 @@ a:hover {
     height: 842px;
     margin:0 30% 0 30%;
 }
+
+@media only screen and (max-width: 500px) {
+
+    *{
+        font-size: 14px;
+    }
+    nav,
+    footer {
+        flex-direction: column;
+    }
+
+    #CV{
+        width:100%;
+        margin: 0;
+    }
+
+}
