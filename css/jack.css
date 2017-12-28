@@ -1,3 +1,14 @@
+nav{top:0;}
+nav *, footer *{color:white;}
+#CVmobile{display: none;}
+
+
+/* barb reset */
+
+body{
+    font-size: 19px;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
@@ -6,13 +17,12 @@
     text-decoration: none;
     list-style-type: none;
     border: 0;
-    
 }
 
-body{
-    overflow-x: hidden;
-    font-size: 19px;
-}
+
+
+
+
 
 #particles canvas {
     position: absolute;
@@ -36,9 +46,6 @@ nav a, nav p, nav p, a{
     text-align: center;
 }
 
-nav{
-    top:0;
-}
 
 
 nav,
@@ -55,7 +62,6 @@ footer {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-nav *, footer *{color:white;}
 
 .glass{
     background: #4CA1AF;  /* fallback for old browsers */
@@ -86,9 +92,7 @@ a:hover {
     margin:0 30% 0 30%;
 }
 
-#CVmobile{
-    display: none;
-}
+
 
 @media only screen and (max-width: 500px) {
 
