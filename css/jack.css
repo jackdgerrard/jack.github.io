@@ -7,6 +7,11 @@
     text-decoration: none;
     list-style-type: none;
     border: 0;
+    
+}
+
+body{
+    overflow-x: hidden;
 }
 
 #particles canvas {
@@ -31,6 +36,10 @@ nav a, nav p, nav p, a{
     text-align: center;
 }
 
+nav{
+    top:0;
+}
+
 
 nav,
 footer {
@@ -48,15 +57,27 @@ footer {
 
 nav *, footer *{color:white;}
 
+.glass{
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    opacity: 0.78;
+    z-index: -1;
+    margin:3% 0 0 0;
+
+}
+
 .shadow {
     -webkit-box-shadow: -5px 5px 13px 0px rgba(0, 0, 0, 0.67);
     -moz-box-shadow: -5px 5px 13px 0px rgba(0, 0, 0, 0.67);
     box-shadow: -5px 5px 13px 0px rgba(0, 0, 0, 0.67);
+    z-index: 2;
 }
 
 a:hover {
     text-decoration: underline;
-    color:orange;
+    color:#f26300;
 }
 
 #CV {
