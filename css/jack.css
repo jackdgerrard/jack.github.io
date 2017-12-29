@@ -2,7 +2,7 @@ nav{top:0;}
 nav *, footer *{color:white;}
 #CVmobile{display: none;}
 h1,h2 {font-size: 2em;}
-h1, h2, h4{text-decoration: underline;}
+h2, h4{text-decoration: underline;}
 
 
 /* barb reset */
@@ -21,9 +21,10 @@ body{
     border: 0;
 }
 
-#particles canvas {
+#particles{
     position: absolute;
     height: 100%;
+    z-index: -5;
   }
 
 
